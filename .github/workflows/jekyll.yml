@@ -63,7 +63,8 @@ jobs:
           echo "Current branch: $(git branch --show-current)"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _hotfixes/
+          # forcing _hotfixes to be added, as it's in .gitignore
+          git add -f _hotfixes/
           # optionally add other generated files
           if ! git diff --cached --quiet; then
             git commit -m "Add new hotfixes"

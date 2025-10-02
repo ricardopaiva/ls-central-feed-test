@@ -1,0 +1,28 @@
+## Follow the latest hotfixes
+
+I have put together these RSS feeds to make it easier to keep track of hotfixes for LS Central and related products. If you subscribe, you will get notified whenever a new hotfix is released — no need to go searching for updates.
+
+<br>
+<p><b>Disclaimer</b></p>
+This is my personal site and not an official company resource. I maintain it because I find it useful myself and thought it might help others too.
+<br>For official information, please refer to the following [link](https://help.lscentral.lsretail.com/Content/Hotfixes/Hotfixes-26-1.htm){:target="_blank"}.
+
+<br>
+
+## RSS Feeds
+
+{% assign products = site.hotfixes | map: "product" | uniq %}
+
+<ul>
+    <li>
+        <a class="btn btn-rss" href="{{ site.url }}{{ site.baseurl }}/feed/all.xml" target="_blank">Subscribe to all RSS</a>
+    </li>
+    <br>
+{% for product in products %}
+    {% assign fixes = site.hotfixes | where: "product", product %}
+    {% assign fix = fixes | first %}
+        <li>
+            <a class="btn btn-rss" href="{{ site.url }}{{ site.baseurl }}/feed/{{ product | downcase | replace: ' ', '-'}}.xml" target="_blank">Subscribe to {{ product }} RSS</a>
+        </li>
+{% endfor %}
+</ul>

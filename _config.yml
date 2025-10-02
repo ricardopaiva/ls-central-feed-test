@@ -1,0 +1,17 @@
+title: LS Central Hotfixes
+email: ricardomo@lsretail.com
+description: >-
+  LS Central Hotfixes Feed
+baseurl: "/ls-central-feed"
+url: "https://ricardopaiva.github.io"
+
+author: Ricardo Moinhos
+
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+
+collections:
+  hotfixes:
+    output: true
+    permalink: /hotfixes/:name/

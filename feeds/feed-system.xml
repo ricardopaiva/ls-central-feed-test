@@ -1,0 +1,22 @@
+---
+layout: none
+permalink: /feed/system.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Hotfixes - System</title>
+  <link>{{ site.url }}{{ site.baseurl }}{{ fix.url }}</link>
+  <description>RSS feed for System hotfixes</description>
+  {% assign fixes = site.hotfixes | where: "product", "System" %}
+  {% for fix in fixes %}
+  <item>
+    <title>{{ fix.title }}</title>
+    <link>{{ site.url }}{{ site.baseurl }}{{ fix.url }}</link>
+    <pubDate>{{ fix.date | date_to_rfc822 }}</pubDate>
+    <guid>{{ fix.guid }}</guid>
+    <description><![CDATA[{{ fix.content | strip_html }}]]></description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

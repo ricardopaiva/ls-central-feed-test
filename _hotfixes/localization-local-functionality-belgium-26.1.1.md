@@ -5,7 +5,7 @@ version: "26.1.1"
 subproduct: Local Functionality Belgium
 minor_version: "26.1"
 date: 2025-08-19 00:00:00+00:00
-order: 77
+order: 78
 guid: e66d556e039fd030e3971d4a410980e10dc0395e
 ---
 

@@ -5,7 +5,7 @@ version: "26.1.5"
 subproduct: Local Functionality Germany
 minor_version: "26.1"
 date: 2025-08-26 00:00:00+00:00
-order: 67
+order: 69
 guid: 6aa62d72cdfdbde60cc946512efde0185cfa8ed6
 ---
 

@@ -9,4 +9,5 @@ order: 107
 guid: 80006933b9eb26d00fb06f6b4c7f3bb0faff9040
 ---
 
-<strong>72338 License Manager isolated storage deadlocks</strong><ul><li>License storage read and write was updated.</li></ul>
+<strong>72338 License Manager isolated storage deadlocks</strong>
+<ul><li>License storage read and write was updated.</li></ul>

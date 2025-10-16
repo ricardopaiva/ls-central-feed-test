@@ -9,4 +9,5 @@ order: 84
 guid: 0c37c2453ba36eb96a0c72ac1384f4a5d1ff35ad
 ---
 
-<strong>71752 Not able to split bill</strong><ul><li>Details not available.</li></ul>
+<strong>71752 Not able to split bill</strong>
+<ul><li>Details not available.</li></ul>

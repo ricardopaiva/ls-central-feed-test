@@ -9,6 +9,9 @@ order: 100
 guid: d89673fe58b50785de24fc46d676ab901edf9470
 ---
 
-<strong>61752 Missing Icelandic characters in report 10037852</strong><ul><li>Icelandic characters in fixed texts corrected.</li></ul>
-<strong>65606 Can not reserve dispense order at POS</strong><ul><li>Subscriber retrieves the active functionality profile before communicating via Pharmacy Web Client.</li></ul>
-<strong>69432 Lyfjaverdskra Import creates prices for customer ALL instead of predefined price group</strong><ul><li>Import of Lyfjaverðskrá now creates and maintains the default pricelist as set in Sales &amp;  Receivable Setup and select the Price Group Code defined in that Price List.</li></ul>
+<strong>61752 Missing Icelandic characters in report 10037852</strong>
+<ul><li>Icelandic characters in fixed texts corrected.</li></ul>
+<strong>65606 Can not reserve dispense order at POS</strong>
+<ul><li>Subscriber retrieves the active functionality profile before communicating via Pharmacy Web Client.</li></ul>
+<strong>69432 Lyfjaverdskra Import creates prices for customer ALL instead of predefined price group</strong>
+<ul><li>Import of Lyfjaverðskrá now creates and maintains the default pricelist as set in Sales &amp;  Receivable Setup and select the Price Group Code defined in that Price List.</li></ul>

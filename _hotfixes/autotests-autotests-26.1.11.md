@@ -9,5 +9,7 @@ order: 38
 guid: 716e2237d6470815cb9dbd32c3b77eff8735f3df
 ---
 
-<strong>69925 Unable to change discount on discount offer products</strong><ul><li>Now it is possible to change discount on discount offer products.</li></ul>
-<strong>69906 Insufficient Quantity on Receipt Item During Statement Posting - Recipe BOMs</strong><ul><li>Statement posting now works with excluded recipe/ingredients and Inventory Setup option <b>Prevent Negative Inventory</b>.</li></ul>
+<strong>69925 Unable to change discount on discount offer products</strong>
+<ul><li>Now it is possible to change discount on discount offer products.</li></ul>
+<strong>69906 Insufficient Quantity on Receipt Item During Statement Posting - Recipe BOMs</strong>
+<ul><li>Statement posting now works with excluded recipe/ingredients and Inventory Setup option <b>Prevent Negative Inventory</b>.</li></ul>

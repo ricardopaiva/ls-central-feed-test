@@ -9,4 +9,5 @@ order: 76
 guid: 140288a5c585931d806d5778a221fe7b2646060c
 ---
 
-<strong>64796 LSC French Translation missing in LS Central</strong><ul><li>Details not available.</li></ul>
+<strong>64796 LSC French Translation missing in LS Central</strong>
+<ul><li>Details not available.</li></ul>

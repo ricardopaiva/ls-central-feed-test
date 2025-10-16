@@ -9,4 +9,5 @@ order: 65
 guid: 9ab692883044729459198ee8d5ad43e719ba3bb5
 ---
 
-<strong>68328 PMS: Nationality report not showing correct data</strong><ul><li>Fixed an issue where the guest list's country code was not updated correctly. This affected the Nationality Report.</li></ul>
+<strong>68328 PMS: Nationality report not showing correct data</strong>
+<ul><li>Fixed an issue where the guest list's country code was not updated correctly. This affected the Nationality Report.</li></ul>

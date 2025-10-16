@@ -9,4 +9,5 @@ order: 112
 guid: 332dde551e76995509aac6545e9f244d33b9c840
 ---
 
-<strong>68442 Glyph values cause runtime error in POS Client</strong><ul><li>Fixed an error caused by Glyph field being set to values 2, 4, 5, 6, 10 and 11 in POS Menu Line.</li></ul>
+<strong>68442 Glyph values cause runtime error in POS Client</strong>
+<ul><li>Fixed an error caused by Glyph field being set to values 2, 4, 5, 6, 10 and 11 in POS Menu Line.</li></ul>

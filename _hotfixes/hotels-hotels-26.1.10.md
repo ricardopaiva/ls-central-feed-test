@@ -9,6 +9,9 @@ order: 58
 guid: 561d24ac46ec85faa1e73312755dc840f886e6dd
 ---
 
-<strong>70592 Integration events for hotel</strong><ul><li>Details not available.</li></ul>
-<strong>70231 Price for a line where paying for another reservation is not shown on Folio component in POS</strong><ul><li>The folio lines now show the correct value for the item.</li></ul>
-<strong>70116 When allocating a room that has different room type separate nights it allocates in Tape Chart wrong</strong><ul><li>Hotel res entry page, opens up when the reservation is moved to manually set the room numbers if there are many room types.</li></ul>
+<strong>70592 Integration events for hotel</strong>
+<ul><li>Details not available.</li></ul>
+<strong>70231 Price for a line where paying for another reservation is not shown on Folio component in POS</strong>
+<ul><li>The folio lines now show the correct value for the item.</li></ul>
+<strong>70116 When allocating a room that has different room type separate nights it allocates in Tape Chart wrong</strong>
+<ul><li>Hotel res entry page, opens up when the reservation is moved to manually set the room numbers if there are many room types.</li></ul>

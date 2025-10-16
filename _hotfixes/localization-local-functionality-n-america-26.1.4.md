@@ -9,4 +9,5 @@ order: 75
 guid: 9ef1b4abd2291af6cd69e18c3263395054f25984
 ---
 
-<strong>69929 LSC NA SendTransaction Web Service Not Working when not Local Request</strong><ul><li>Details not available.</li></ul>
+<strong>69929 LSC NA SendTransaction Web Service Not Working when not Local Request</strong>
+<ul><li>Details not available.</li></ul>

@@ -9,5 +9,7 @@ order: 102
 guid: 2f04622877ffa7dbca09e304e0fed0b41567687c
 ---
 
-<strong>61752 Missing icelandic characters in report 10037852</strong><ul><li>Icelandic characters in fixed texts corrected.</li></ul>
-<strong>68589 Pharmacy dispense - Send insurance request - wrong sender</strong><ul><li>The Insurance Sender is used in communication with SÍ, if available in the Store Pharmacy Details. Fallback is the Pharmacy ID.</li></ul>
+<strong>61752 Missing icelandic characters in report 10037852</strong>
+<ul><li>Icelandic characters in fixed texts corrected.</li></ul>
+<strong>68589 Pharmacy dispense - Send insurance request - wrong sender</strong>
+<ul><li>The Insurance Sender is used in communication with SÍ, if available in the Store Pharmacy Details. Fallback is the Pharmacy ID.</li></ul>

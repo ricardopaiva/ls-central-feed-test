@@ -9,4 +9,5 @@ order: 80
 guid: 0f9dbffcd0966144b663a6cc16bfecdae0dc7ad4
 ---
 
-<strong>69507 Double Tax on Receipt</strong><ul><li>Printed one-time tax only in the prebill and split bill.</li></ul>
+<strong>69507 Double Tax on Receipt</strong>
+<ul><li>Printed one-time tax only in the prebill and split bill.</li></ul>

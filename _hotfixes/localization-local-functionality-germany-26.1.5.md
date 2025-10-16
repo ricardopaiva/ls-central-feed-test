@@ -9,5 +9,6 @@ order: 74
 guid: 6aa62d72cdfdbde60cc946512efde0185cfa8ed6
 ---
 
-<strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong><ul><li>Improved Cash Point Closing refresh processes.</li>
+<strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong>
+<ul><li>Improved Cash Point Closing refresh processes.</li>
 <li>Fixed Business date source.</li></ul>

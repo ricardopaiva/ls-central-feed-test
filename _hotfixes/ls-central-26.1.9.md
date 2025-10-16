@@ -9,5 +9,4 @@ order: 25
 guid: 6e4c387f99dc3b77171a0f55e584e528de62bae9
 ---
 
-<strong>69528 Appsource validation error on 25.3.20</strong>
-<ul><li>Details not available.</li></ul>
+<strong>69528 Appsource validation error on 25.3.20</strong><ul><li>Details not available.</li></ul>

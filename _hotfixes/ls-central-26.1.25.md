@@ -9,5 +9,4 @@ order: 9
 guid: f202d5d2b90e0fde9dd5348d4781049b032b03a1
 ---
 
-<strong>71437 AppSource validation failure</strong>
-<ul><li>Details not available.</li></ul>
+<strong>71437 AppSource validation failure</strong><ul><li>Details not available.</li></ul>

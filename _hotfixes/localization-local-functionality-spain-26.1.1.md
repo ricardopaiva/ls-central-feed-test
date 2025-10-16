@@ -9,5 +9,4 @@ order: 86
 guid: 2665c79da6295bb233bda16cd02967c6b1968c05
 ---
 
-<strong>69738 LSC ES - Release Fiskaly Connector</strong>
-<ul><li>Details not available.</li></ul>
+<strong>69738 LSC ES - Release Fiskaly Connector</strong><ul><li>Details not available.</li></ul>

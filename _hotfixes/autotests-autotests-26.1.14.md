@@ -9,5 +9,4 @@ order: 35
 guid: 55fea03ef59803d7e484cb0297c4b18c4ec10d93
 ---
 
-<strong>72277 Commerce_Inventory stops due to special characters in item codes</strong>
-<ul><li>Filter was adjusted to allow special characters.</li></ul>
+<strong>72277 Commerce_Inventory stops due to special characters in item codes</strong><ul><li>Filter was adjusted to allow special characters.</li></ul>

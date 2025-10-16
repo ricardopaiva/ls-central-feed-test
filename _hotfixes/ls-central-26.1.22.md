@@ -9,5 +9,4 @@ order: 12
 guid: f46bc765e692c56accf4e9582833cad64e33c789
 ---
 
-<strong>70461 Repay Prepayment to Customer</strong>
-<ul><li>Details not available.</li></ul>
+<strong>70461 Repay Prepayment to Customer</strong><ul><li>Details not available.</li></ul>

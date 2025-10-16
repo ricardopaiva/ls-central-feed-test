@@ -9,5 +9,4 @@ order: 79
 guid: 30b4cbed399d043004912af08de2bb7da6836b32
 ---
 
-<strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong>
-<ul><li>Details not available.</li></ul>
+<strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong><ul><li>Details not available.</li></ul>

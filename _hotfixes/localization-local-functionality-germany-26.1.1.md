@@ -9,5 +9,4 @@ order: 89
 guid: b76ee4c87ee6cf9417a114cb1a315b28994a9076
 ---
 
-<strong>68751 LSCDE-Statement post not trigger the fiskaly upload</strong>
-<ul><li>Details not available.</li></ul>
+<strong>68751 LSCDE-Statement post not trigger the fiskaly upload</strong><ul><li>Details not available.</li></ul>

@@ -9,5 +9,4 @@ order: 83
 guid: 82cd9d49d38816fa0a5fe6620de69a7af03ae86c
 ---
 
-<strong>71336 Norwegian receipt text partly in English</strong>
-<ul><li>Translations for labels on POSPrintUtility were added. </li></ul>
+<strong>71336 Norwegian receipt text partly in English</strong><ul><li>Translations for labels on POSPrintUtility were added. </li></ul>

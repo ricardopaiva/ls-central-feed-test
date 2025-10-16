@@ -9,7 +9,5 @@ order: 70
 guid: 45ce4201a858769626ac1675f552d282b24b49e2
 ---
 
-<strong>71665 Details Factbox shows incorrect values when NA Tax</strong>
-<ul><li>The incorrect values in CO details FactBox were fixed.</li></ul>
-<strong>71627 New OnBefore event for replace LSCNA GetObjectID mapping</strong>
-<ul><li>New events, <b>OnBeforeSendTransOnBeforeSendLocalRequest</b> and <b>OnBeforeGetObjectID</b> were added. </li></ul>
+<strong>71665 Details Factbox shows incorrect values when NA Tax</strong><ul><li>The incorrect values in CO details FactBox were fixed.</li></ul>
+<strong>71627 New OnBefore event for replace LSCNA GetObjectID mapping</strong><ul><li>New events, <b>OnBeforeSendTransOnBeforeSendLocalRequest</b> and <b>OnBeforeGetObjectID</b> were added. </li></ul>

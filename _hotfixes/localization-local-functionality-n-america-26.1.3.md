@@ -9,7 +9,5 @@ order: 78
 guid: 8cf2f817b224d9144682e79e606808d16d7dac04
 ---
 
-<strong>69589 Weird amount triggered on CO Total (modify)</strong>
-<ul><li>Details not available.</li></ul>
-<strong>67683 LSC CA - Sales Header does not exist -POS</strong>
-<ul><li>Details not available.</li></ul>
+<strong>69589 Weird amount triggered on CO Total (modify)</strong><ul><li>Details not available.</li></ul>
+<strong>67683 LSC CA - Sales Header does not exist -POS</strong><ul><li>Details not available.</li></ul>

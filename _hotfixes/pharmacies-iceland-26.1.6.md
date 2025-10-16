@@ -9,5 +9,4 @@ order: 96
 guid: 3d165ad66b0d8bdd8d5134b055d164241d9696cc
 ---
 
-<strong>70173 IS insurance sender can be blank</strong>
-<ul><li>The Insurance Sender is used in communication with SÍ, regardless whether it is blank or has value.</li></ul>
+<strong>70173 IS insurance sender can be blank</strong><ul><li>The Insurance Sender is used in communication with SÍ, regardless whether it is blank or has value.</li></ul>

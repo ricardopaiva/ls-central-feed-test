@@ -9,5 +9,4 @@ order: 69
 guid: b559e10e2536fbde201a7b3030e72232cc7f1f36
 ---
 
-<strong>71911 localization Germany Fiskaly</strong>
-<ul><li>Details not available.</li></ul>
+<strong>71911 localization Germany Fiskaly</strong><ul><li>Details not available.</li></ul>

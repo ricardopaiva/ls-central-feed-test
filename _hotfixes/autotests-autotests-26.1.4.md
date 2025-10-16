@@ -9,5 +9,4 @@ order: 45
 guid: 05df89823123837635f2be146eb1d8f42824e9e9
 ---
 
-<strong>69172 Fix compile failures in hotfix/latest - Customer Order Header</strong>
-<ul><li>Details not available.</li></ul>
+<strong>69172 Fix compile failures in hotfix/latest - Customer Order Header</strong><ul><li>Details not available.</li></ul>

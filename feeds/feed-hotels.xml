@@ -13,7 +13,11 @@ permalink: /feed/hotels.xml
   <item>
     <title>{{ fix.title }}</title>
     <link>{{ site.url }}{{ site.baseurl }}{{ fix.url }}</link>
-    <pubDate>{{ "now" | date_to_rfc822 }}</pubDate>
+    {% if fix.title == "LS Central hotfixes - 26.1.33, Release date October 14, 2025 - Hotfixes" %}
+      <pubDate>{{ "now" | date_to_rfc822 }}</pubDate>
+    {% else %}
+      <pubDate>{{ fix.date | date_to_rfc822 }}</pubDate>
+    {% endif %}
     <guid>{{ fix.guid }}</guid>
     <description><![CDATA[{{ fix.content | markdownify | remove: '<p>' | remove: '</p>' }}]]></description>
   </item>

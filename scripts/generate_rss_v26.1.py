@@ -150,7 +150,8 @@ def generate_hotfixes(content):
                 "subproduct": extract_sub_product_from_version(version),
                 "date": pub_date,
                 "guid": guid,
-                "content": content
+                # "content": content
+                "content": "**72254 Logon with barcode** - Item 1\r- Item 2\r- Item 3\r- Details not available."
             })
     return hotfixes
 
@@ -205,7 +206,7 @@ layout: none
 permalink: /feed/{filename}.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0">
 <channel>
   <title>Hotfixes - {name}</title>
   <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
@@ -218,13 +219,6 @@ permalink: /feed/{filename}.xml
     <pubDate>{{{{ "now" | date_to_rfc822 }}}}</pubDate>
     <guid>{{{{ fix.guid }}}}</guid>
     <description><![CDATA[{{{{ fix.content | markdownify }}}}]]></description>
-    <content:encoded><![CDATA[
-**72254 Logon with barcode**
-- Details not available.
-
-**69714 KDS Report**
-- KDS Performance reports now work correctly when using Web KDS.
-  ]]></content:encoded>
   </item>
   {{% endfor %}}
 </channel>

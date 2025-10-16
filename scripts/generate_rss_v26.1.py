@@ -138,7 +138,7 @@ def generate_hotfixes(content):
                     content_items.append(f"{item_text}")
                     items_array = [f"{detail}" for detail in details]
                     content_items.append(f"<ul>" + "\n".join(items_array) + "</ul>")
-            content = "\n".join(content_items)
+            content = "<div>" + "\n".join(content_items) + "</div>"
 
             sort_id += 1
             hotfixes.append({
@@ -217,7 +217,7 @@ permalink: /feed/{filename}.xml
     <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
     <pubDate>{{{{ "now" | date_to_rfc822 }}}}</pubDate>
     <guid>{{{{ fix.guid }}}}</guid>
-    <description><![CDATA[<div>{{{{ fix.content | markdownify }}}}</div>]]></description>
+    <description><![CDATA[{{{{ fix.content | markdownify }}}}]]></description>
   </item>
   {{% endfor %}}
 </channel>

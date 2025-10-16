@@ -138,7 +138,7 @@ def generate_hotfixes(content):
                     content_items.append(f"{item_text}")
                     items_array = [f"{detail}" for detail in details]
                     content_items.append(f"<ul>" + "\n".join(items_array) + "</ul>")
-            content = "<div>" + "\n".join(content_items) + "</div>"
+            content = "\n".join(content_items)
 
             sort_id += 1
             hotfixes.append({
@@ -150,8 +150,7 @@ def generate_hotfixes(content):
                 "subproduct": extract_sub_product_from_version(version),
                 "date": pub_date,
                 "guid": guid,
-                # "content": content
-                "content": "**72254 Logon with barcode**\r- Item 1\r- Item 2\r- Item 3\r- Details not available."
+                "content": content
             })
     return hotfixes
 
@@ -218,7 +217,7 @@ permalink: /feed/{filename}.xml
     <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
     <pubDate>{{{{ "now" | date_to_rfc822 }}}}</pubDate>
     <guid>{{{{ fix.guid }}}}</guid>
-    <description><![CDATA[{{{{ fix.content }}}}]]></description>
+    <description><![CDATA[{{{{ fix.content | markdownify }}}}]]></description>
   </item>
   {{% endfor %}}
 </channel>

@@ -15,7 +15,7 @@ permalink: /feed/all.xml
     <link>{{ site.url }}{{ site.baseurl }}{{ fix.url }}</link>
     <pubDate>{{ "now" | date_to_rfc822 }}</pubDate>
     <guid>{{ fix.guid }}</guid>
-    <description><![CDATA[{{ fix.content }}]]></description>
+    <description><![CDATA[{{ fix.content | markdownify }}]]></description>
   </item>
   {% endfor %}
 </channel>

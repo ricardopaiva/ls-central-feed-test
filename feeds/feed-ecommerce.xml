@@ -16,6 +16,13 @@ permalink: /feed/ecommerce.xml
     <pubDate>{{ "now" | date_to_rfc822 }}</pubDate>
     <guid>{{ fix.guid }}</guid>
     <description><![CDATA[{{ fix.content | markdownify }}]]></description>
+    <content:encoded><![CDATA[
+**72254 Logon with barcode**
+- Details not available.
+
+**69714 KDS Report**
+- KDS Performance reports now work correctly when using Web KDS.
+  ]]></content:encoded>
   </item>
   {% endfor %}
 </channel>

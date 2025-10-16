@@ -9,7 +9,4 @@ order: 103
 guid: e70706a1ed58bab31c2a8685355427d0342df0ed
 ---
 
-<div><strong>69619 Change the UI menus and titles to match those of LS Central</strong>
-<ul><li>Details not available.</li></ul>
-<strong>69791 Fix compile errors on POSGUI and other LSC stuff</strong>
-<ul><li>Details not available.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

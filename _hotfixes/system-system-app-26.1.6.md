@@ -9,5 +9,4 @@ order: 107
 guid: 80006933b9eb26d00fb06f6b4c7f3bb0faff9040
 ---
 
-<div><strong>72338 License Manager isolated storage deadlocks</strong>
-<ul><li>License storage read and write was updated.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

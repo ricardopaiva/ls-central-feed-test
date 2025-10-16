@@ -9,7 +9,4 @@ order: 24
 guid: fc48a87ec70752ed30904d350296f538b9ba0c88
 ---
 
-<div><strong>69562 Appsource validation error on 26.0 and 26.1</strong>
-<ul><li>Details not available.</li></ul>
-<strong>69430 Quantity error on serial required items</strong>
-<ul><li>Fixed issue where it is not possible to set -1 quantity to a item with a serial no.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

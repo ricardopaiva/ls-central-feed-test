@@ -9,7 +9,4 @@ order: 102
 guid: 2f04622877ffa7dbca09e304e0fed0b41567687c
 ---
 
-<div><strong>61752 Missing icelandic characters in report 10037852</strong>
-<ul><li>Icelandic characters in fixed texts corrected.</li></ul>
-<strong>68589 Pharmacy dispense - Send insurance request - wrong sender</strong>
-<ul><li>The Insurance Sender is used in communication with SÍ, if available in the Store Pharmacy Details. Fallback is the Pharmacy ID.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

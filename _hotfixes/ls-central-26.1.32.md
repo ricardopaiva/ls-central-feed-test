@@ -9,7 +9,4 @@ order: 2
 guid: 8487fed8319961c05798787621aea2ffbfc042a9
 ---
 
-<div><strong>72254 Logon with barcode</strong>
-<ul><li>Details not available.</li></ul>
-<strong>69714 KDS Report</strong>
-<ul><li>KDS Performance reports, now works correctly when using the Web KDS.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

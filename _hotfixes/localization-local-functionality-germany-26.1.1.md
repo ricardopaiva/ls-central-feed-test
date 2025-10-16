@@ -9,5 +9,4 @@ order: 89
 guid: b76ee4c87ee6cf9417a114cb1a315b28994a9076
 ---
 
-<div><strong>68751 LSCDE-Statement post not trigger the fiskaly upload</strong>
-<ul><li>Details not available.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

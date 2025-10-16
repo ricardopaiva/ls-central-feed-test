@@ -9,9 +9,4 @@ order: 47
 guid: 87179c8aa8d40bee3ede00c83544d28836a6696f
 ---
 
-<div><strong>68155 Creating membership card with more than 20 characteres at POS</strong>
-<ul><li>Prevented overflow error on POS when Member Card length exceeds twenty characters.</li></ul>
-<strong>68036 Error Message The member coupon buffer does not exist</strong>
-<ul><li>Details not available.</li></ul>
-<strong>67285 Customer Order Refund incorrect Refund Status</strong>
-<ul><li>Wrong Refund status was displayed on Customer Order. This was fixed. If not refunded on POS, <b>Payment Pending</b> should be displayed.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

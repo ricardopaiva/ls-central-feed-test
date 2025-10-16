@@ -9,5 +9,4 @@ order: 96
 guid: 3d165ad66b0d8bdd8d5134b055d164241d9696cc
 ---
 
-<div><strong>70173 IS insurance sender can be blank</strong>
-<ul><li>The Insurance Sender is used in communication with SÍ, regardless whether it is blank or has value.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

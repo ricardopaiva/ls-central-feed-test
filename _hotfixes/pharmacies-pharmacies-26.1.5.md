@@ -9,5 +9,4 @@ order: 97
 guid: 5961b04fff255cf0a923a4a7db307a15081d60bf
 ---
 
-<div><strong>70635 Pharmacy Dispensation: Prices do not include VAT in dispense production orders</strong>
-<ul><li>Calculated Price Incl. VAT in Dispense Production is based on the field <b>Price incl. VAT</b> in the PriceList line.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

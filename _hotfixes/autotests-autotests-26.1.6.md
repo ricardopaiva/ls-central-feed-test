@@ -9,7 +9,4 @@ order: 43
 guid: 736b7bfd9b6c3c0f0f788ec0d0b0b5e4ed7684eb
 ---
 
-<div><strong>68999 Error while selecting Link to account</strong>
-<ul><li>Details not available.</li></ul>
-<strong>68813 POS Command SEARCHCONTACT doesn't work in new version</strong>
-<ul><li>Details not available.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

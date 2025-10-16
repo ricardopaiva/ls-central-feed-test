@@ -9,5 +9,4 @@ order: 75
 guid: 9ef1b4abd2291af6cd69e18c3263395054f25984
 ---
 
-<div><strong>69929 LSC NA SendTransaction Web Service Not Working when not Local Request</strong>
-<ul><li>Details not available.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

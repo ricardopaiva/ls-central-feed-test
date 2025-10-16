@@ -9,7 +9,4 @@ order: 36
 guid: 3280d469361e0737f77829486ac8023219d632aa
 ---
 
-<div><strong>71523 Member Scheme Upgrade Skips a Level - Copy</strong>
-<ul><li>Details not available.</li></ul>
-<strong>69309 License manager setup error in French</strong>
-<ul><li>Increased variable size to handle translations that require more characters.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

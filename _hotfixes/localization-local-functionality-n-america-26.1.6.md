@@ -9,5 +9,4 @@ order: 72
 guid: a9d1dd6785d8757f89512583f2b69fedd743f522
 ---
 
-<div><strong>69271 LSC NA - fr-CA - V26 test - Wrong Translation in Z report</strong>
-<ul><li>Fixed an incorrect caption in fr-CA language.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

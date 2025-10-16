@@ -9,9 +9,4 @@ order: 99
 guid: 16f82f81a27b76582801d733aadcb024aeface15
 ---
 
-<div><strong>70320 Global Access to Selected Functions in Codeunit "LSC PH Item Management"</strong>
-<ul><li>Procedures exposed as public:<ul><li>ShowRelatedItemsByATC</li><li>ShowRelatedItemsBySubstance</li></ul></li>
-<li>ShowRelatedItemsByATC</li>
-<li>ShowRelatedItemsBySubstance</li></ul>
-<strong>70323 Global Access to Selected Functions in Codeunit "LSC PH Session"</strong>
-<ul><li>Procedures <b>GetLocationCode</b> is now public.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

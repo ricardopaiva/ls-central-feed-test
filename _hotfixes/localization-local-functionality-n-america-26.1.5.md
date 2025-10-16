@@ -9,5 +9,4 @@ order: 73
 guid: 6e2e3f5a4480a1fa825e24c1a9e820ceef0b5234
 ---
 
-<div><strong>69576 LSC NA - Sales Tax Error on CO Pickup</strong>
-<ul><li>Fixed the error: Sales Header does not exist.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

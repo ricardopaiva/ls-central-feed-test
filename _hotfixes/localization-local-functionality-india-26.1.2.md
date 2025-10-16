@@ -9,5 +9,4 @@ order: 82
 guid: b8702f10543797186ebcbbd0e485ab6574740b53
 ---
 
-<div><strong>68793 LSC IN - GST Calculation Issue - Voided Item if item is same</strong>
-<ul><li>Voided the item line, it  recalculates the GST amount.</li></ul></div>
+**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.

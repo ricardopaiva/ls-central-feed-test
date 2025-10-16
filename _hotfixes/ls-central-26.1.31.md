@@ -9,4 +9,4 @@ order: 3
 guid: 1f16fb1b013f328dbb100e8ab9fdf0bf6edc1d6b
 ---
 
-**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.
+**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.

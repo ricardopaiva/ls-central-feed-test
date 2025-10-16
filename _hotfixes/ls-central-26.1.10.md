@@ -9,4 +9,4 @@ order: 24
 guid: fc48a87ec70752ed30904d350296f538b9ba0c88
 ---
 
-**72254 Logon with barcode** - Item 1- Item 2- Item 3- Details not available.
+**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.

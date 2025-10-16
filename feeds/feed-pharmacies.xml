@@ -15,7 +15,7 @@ permalink: /feed/pharmacies.xml
     <link>{{ site.url }}{{ site.baseurl }}{{ fix.url }}</link>
     <pubDate>{{ "now" | date_to_rfc822 }}</pubDate>
     <guid>{{ fix.guid }}</guid>
-    <description><![CDATA[{{ fix.content | markdownify }}]]></description>
+    <description><![CDATA[{{ fix.content | markdownify | remove: '<p>' | remove: '</p>' }}]]></description>
   </item>
   {% endfor %}
 </channel>

@@ -64,6 +64,8 @@ jobs:
           echo "Current branch: $(git branch --show-current)"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # adding changes in the feeds folder
+          git add feeds/
           # forcing _hotfixes to be added, as it's in .gitignore
           git add -f _hotfixes/
           # optionally add other generated files

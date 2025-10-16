@@ -9,7 +9,7 @@ order: 105
 guid: 8b200bbe10b09ed59752d50cbe7b3b63a46a4cbb
 ---
 
-<strong>67397 LS Central for pharmacies: Make procedures global</strong>
+<div><strong>67397 LS Central for pharmacies: Make procedures global</strong>
 <ul><li>Procedure <b>InsertDelegateEntry</b> is visible to extensions.</li></ul>
 <strong>67398 Global access to functions in codeunit 10015311 "LSC PH Item Search Management"</strong>
 <ul><li>Following functions were made visible to third party extensions:<ul><li>AutoFindSubstitutionItem</li><li>SetQtyFilter</li><li>CreateSubstitutionItem</li></ul></li>
@@ -35,4 +35,4 @@ guid: 8b200bbe10b09ed59752d50cbe7b3b63a46a4cbb
 <li>Procedure <b>CreatePHDocumentFromCO</b> in table 10015455 <b>LSC PH Omni PH-Document</b></li>
 <li>Procedure <b>CreatePHDocumentLine</b> in  table 10015456 <b>LSC PH Omni PH-Document Line</b></li></ul>
 <strong>67406 Global access to functions in codeunit 10037619 "LSC PH CO Utils"</strong>
-<ul><li>Function <b>PharmacyCustomerOrderCreatePHDoc</b> was exposed.</li></ul>
+<ul><li>Function <b>PharmacyCustomerOrderCreatePHDoc</b> was exposed.</li></ul></div>

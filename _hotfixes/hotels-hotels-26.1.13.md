@@ -9,7 +9,7 @@ order: 55
 guid: f15d5f20499ff4526d3c7c6f237e6b5dd2f6529f
 ---
 
-<strong>71333 Amount displayed on multiple Hotel Refunds</strong>
+<div><strong>71333 Amount displayed on multiple Hotel Refunds</strong>
 <ul><li>Fixed amount displayed on multiple Hotel Refunds from POS.</li></ul>
 <strong>70918 Incorrect Reservation Payment Entry for Group Booking</strong>
 <ul><li>Fixed the incorrect amount in the payment entry for Group Booking.</li></ul>
@@ -18,4 +18,4 @@ guid: f15d5f20499ff4526d3c7c6f237e6b5dd2f6529f
 <strong>68272 Deposit schedule is not updated correctly</strong>
 <ul><li>Deposit scheduler did not recalculate deposit due, after doing refund. This was fixed.</li></ul>
 <strong>68229 Able to consume same deposit twice if I do not run Night Audit job</strong>
-<ul><li>Night Audit is Run for the reservation, when it is checked out to consume all paid deposit.  The POS draws the deposit into the journal and marks it as <b>used</b>, to prevent using it twice. It also fixes updating DRE lines on deposit posting correctly.</li></ul>
+<ul><li>Night Audit is Run for the reservation, when it is checked out to consume all paid deposit.  The POS draws the deposit into the journal and marks it as <b>used</b>, to prevent using it twice. It also fixes updating DRE lines on deposit posting correctly.</li></ul></div>

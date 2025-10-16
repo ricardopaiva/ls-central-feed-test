@@ -9,5 +9,5 @@ order: 85
 guid: e66d556e039fd030e3971d4a410980e10dc0395e
 ---
 
-<strong>70020 Statement-Post together with LSC BE no longer assigns GLE fields "Journal Templ. Name" and "Journal Batch Name"</strong>
-<ul><li>Details not available.</li></ul>
+<div><strong>70020 Statement-Post together with LSC BE no longer assigns GLE fields "Journal Templ. Name" and "Journal Batch Name"</strong>
+<ul><li>Details not available.</li></ul></div>

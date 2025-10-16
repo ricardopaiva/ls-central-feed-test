@@ -9,7 +9,7 @@ order: 91
 guid: 13cc3396dd70d879693a8ff0e99e8ef4fad9d437
 ---
 
-<strong>65937 Restoring Original Dose Text bug when empty</strong>
+<div><strong>65937 Restoring Original Dose Text bug when empty</strong>
 <ul><li><b>Restore original dose</b> text now works, even though current dose text is empty.</li></ul>
 <strong>69672 Customer Orders are not posted at the end of transaction</strong>
 <ul><li>Customer orders not containing Pharmacy functionality are posted at end of transaction if other conditions are met.</li></ul>
@@ -28,4 +28,4 @@ guid: 13cc3396dd70d879693a8ff0e99e8ef4fad9d437
 <strong>72880 Public Access to Selected Functions in "LSC PH Prescr., Line Info"</strong>
 <ul><li>Details not available.</li></ul>
 <strong>72881 Public Access to Selected Functions in Codeunit "LSC PH Prescription Order"</strong>
-<ul><li>Details not available.</li></ul>
+<ul><li>Details not available.</li></ul></div>

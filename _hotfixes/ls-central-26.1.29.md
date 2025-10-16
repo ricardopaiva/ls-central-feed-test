@@ -9,7 +9,7 @@ order: 5
 guid: a9cbcc985bc9b4e9076e3362a702a81fdf2281f7
 ---
 
-<strong>72348 New-Event-EFT-InsertLogEntry</strong>
+<div><strong>72348 New-Event-EFT-InsertLogEntry</strong>
 <ul><li>Details not available.</li></ul>
 <strong>72335 Cannot change quantity of deals</strong>
 <ul><li>There was an inability to change quantity on a deal line. This was fixed. </li></ul>
@@ -40,4 +40,4 @@ guid: a9cbcc985bc9b4e9076e3362a702a81fdf2281f7
 <strong>69549 Trans. Date and time missing in POS Voided Trans. Line</strong>
 <ul><li><b>Trans. Date</b> and <b>Trans. Time</b> was filled on <b>POS Voided Trans. Line</b>.</li></ul>
 <strong>66912 Matrix Drag and Drop is not working when using Windows AppShell</strong>
-<ul><li>Details not available.</li></ul>
+<ul><li>Details not available.</li></ul></div>

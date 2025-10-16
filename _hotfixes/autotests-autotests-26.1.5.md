@@ -9,5 +9,5 @@ order: 44
 guid: 99ccd128b86a4570de24eb1099a924dbde248f74
 ---
 
-<strong>69222 Some cleanup for LSC-69172</strong>
-<ul><li>Details not available.</li></ul>
+<div><strong>69222 Some cleanup for LSC-69172</strong>
+<ul><li>Details not available.</li></ul></div>

@@ -9,7 +9,7 @@ order: 19
 guid: 1c2473e41fc0e3163165c69944aef1f30defc769
 ---
 
-<strong>69978 Published Offer not showing</strong>
+<div><strong>69978 Published Offer not showing</strong>
 <ul><li>Redundant local variable removed, to get access to the results from the <b>GetDirectMarketingInfo WS</b>.</li></ul>
 <strong>69953 Problem with cancelling orders on Shopify - BC</strong>
 <ul><li>Posting Customer Order non refundable shipping cost was wrongly done to fixed account. Now it follows normal Sales account.</li></ul>
@@ -42,4 +42,4 @@ guid: 1c2473e41fc0e3163165c69944aef1f30defc769
 <strong>68667 Incorrect VAT calculation on Sales Order created by Customer Order</strong>
 <ul><li>Fixed VAT calculation on Sales Order, created by Customer Order.</li></ul>
 <strong>62087 Flexible bag should start with start amount 0</strong>
-<ul><li>When you use <b>POS Start Amount Method = Flexible Bag</b>  it should always open the start of day float with amount 0 (as the online help). But it behaved exactly the same as the fixed bag. This was fixed. </li></ul>
+<ul><li>When you use <b>POS Start Amount Method = Flexible Bag</b>  it should always open the start of day float with amount 0 (as the online help). But it behaved exactly the same as the fixed bag. This was fixed. </li></ul></div>

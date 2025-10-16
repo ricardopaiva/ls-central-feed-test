@@ -9,7 +9,7 @@ order: 43
 guid: 736b7bfd9b6c3c0f0f788ec0d0b0b5e4ed7684eb
 ---
 
-<strong>68999 Error while selecting Link to account</strong>
+<div><strong>68999 Error while selecting Link to account</strong>
 <ul><li>Details not available.</li></ul>
 <strong>68813 POS Command SEARCHCONTACT doesn't work in new version</strong>
-<ul><li>Details not available.</li></ul>
+<ul><li>Details not available.</li></ul></div>

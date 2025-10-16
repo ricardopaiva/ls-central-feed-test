@@ -9,5 +9,5 @@ order: 108
 guid: 16841eab83a4f9950ad84fda35af8ba2973dc6d2
 ---
 
-<strong>69992 Focus does not go to POS after completing a purchase in a SaaS environment</strong>
-<ul><li>Details not available.</li></ul>
+<div><strong>69992 Focus does not go to POS after completing a purchase in a SaaS environment</strong>
+<ul><li>Details not available.</li></ul></div>

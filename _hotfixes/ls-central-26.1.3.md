@@ -9,7 +9,7 @@ order: 31
 guid: b85d57a8e48953b201007148b49874581bced625
 ---
 
-<strong>68644 Public Methods in Periodic Discounts #531</strong>
+<div><strong>68644 Public Methods in Periodic Discounts #531</strong>
 <ul><li>Made three procedures publicly available in Periodic discount.</li></ul>
 <strong>68622 New Events in Statement-Calculate #529</strong>
 <ul><li>New Event <b>OnBeforeFindLastTenderDecl</b> in Statement-Calculate codeunit.</li></ul>
@@ -40,4 +40,4 @@ guid: b85d57a8e48953b201007148b49874581bced625
 <strong>66098 Serial Number handling on the POS</strong>
 <ul><li>New option was added in Retail item card <b>LSC Assign SerialNo/LotNo In CO Picking</b>, which specifies whether to delay assigning SerialNo/LotNo until the picking of the item in the Customer Order. If this field is selected, the SerialNo/LotNo is assigned when the item is picked in the CO. If this field is not selected, the SerialNo/LotNo is assigned when the item is added to POS.</li></ul>
 <strong>64466 Reprice on refund when member added</strong>
-<ul><li>Reprice on refund skipped. This was fixed.</li></ul>
+<ul><li>Reprice on refund skipped. This was fixed.</li></ul></div>

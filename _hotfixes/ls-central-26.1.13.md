@@ -9,9 +9,9 @@ order: 21
 guid: b1eb37daeb490e3ceebcd10475a6e5fec43a0694
 ---
 
-<strong>69757 EXTREMELY LONG DELAYS</strong>
+<div><strong>69757 EXTREMELY LONG DELAYS</strong>
 <ul><li>Details not available.</li></ul>
 <strong>69623 Post Statement Error after posting customer order to invoice</strong>
 <ul><li>Details not available.</li></ul>
 <strong>67683 LSC CA - Sales Header does not exist -POS</strong>
-<ul><li>Details not available.</li></ul>
+<ul><li>Details not available.</li></ul></div>

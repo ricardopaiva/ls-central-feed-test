@@ -9,7 +9,7 @@ order: 33
 guid: a18a32e5187635145376c023b914a01022097708
 ---
 
-<strong>68530 Print Slip Subscriber on Card/Account No. Tender Payment print</strong>
+<div><strong>68530 Print Slip Subscriber on Card/Account No. Tender Payment print</strong>
 <ul><li>New Event <b>OnBeforePrintCardAccountNo</b> in POS Print Utility.</li></ul>
 <strong>68503 Activity Matrix – Activity List from availability slots</strong>
 <ul><li>Integration Event Added <b>OnBeforeFIlterResourceReservationTimeFrom</b> in codeunit 10015912 <b>LSC ACT Matrix Filter Mgt.</b></li></ul>
@@ -52,4 +52,4 @@ guid: a18a32e5187635145376c023b914a01022097708
 <strong>67288 New event to override the values showed in DisplayTotals() Function in POS Transaction Codeunit.</strong>
 <ul><li>Details not available.</li></ul>
 <strong>66736 feat(SC-1209): Added VAT Amount field on Transaction Register #492</strong>
-<ul><li>Details not available.</li></ul>
+<ul><li>Details not available.</li></ul></div>

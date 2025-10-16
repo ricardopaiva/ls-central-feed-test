@@ -9,5 +9,5 @@ order: 72
 guid: a9d1dd6785d8757f89512583f2b69fedd743f522
 ---
 
-<strong>69271 LSC NA - fr-CA - V26 test - Wrong Translation in Z report</strong>
-<ul><li>Fixed an incorrect caption in fr-CA language.</li></ul>
+<div><strong>69271 LSC NA - fr-CA - V26 test - Wrong Translation in Z report</strong>
+<ul><li>Fixed an incorrect caption in fr-CA language.</li></ul></div>

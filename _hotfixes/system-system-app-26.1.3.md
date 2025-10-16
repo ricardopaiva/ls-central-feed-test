@@ -9,5 +9,5 @@ order: 110
 guid: f2447c8af227a8e3ee2b203f0d981558adb6d135
 ---
 
-<strong>68962 Boolean selection issue on POS Panel</strong>
-<ul><li>Details not available.</li></ul>
+<div><strong>68962 Boolean selection issue on POS Panel</strong>
+<ul><li>Details not available.</li></ul></div>

@@ -9,7 +9,7 @@ order: 27
 guid: 0af54b1095fc317f419c4cb50bc6bebd1a0575b5
 ---
 
-<strong>69426 AL: fix Order Pull License error</strong>
+<div><strong>69426 AL: fix Order Pull License error</strong>
 <ul><li>Fixed Sales Header and Sales Shipping Header License errors when pulling orders from Shopify that have been fulfilled in Shopify.</li></ul>
 <strong>69311 Need OnBeforeOpenPanel event urgently</strong>
 <ul><li>New event <b>OnBeforeOpenPanel</b> was added to <b>LSC CO Create Panel</b> codeunit.</li></ul>
@@ -42,4 +42,4 @@ guid: 0af54b1095fc317f419c4cb50bc6bebd1a0575b5
 <strong>68795 Payment issue</strong>
 <ul><li>Issued fixed with INCEXP as overtender which does not close the transaction.</li></ul>
 <strong>68232 BarcDataEntry cuts 0 from front of Giftcard entry</strong>
-<ul><li>Allow the “Keep Leading Zeroes in Barc.” field in the “POS Data Entry Type” table to be set to true for all Numbering selection.</li></ul>
+<ul><li>Allow the “Keep Leading Zeroes in Barc.” field in the “POS Data Entry Type” table to be set to true for all Numbering selection.</li></ul></div>

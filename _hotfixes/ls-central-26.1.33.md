@@ -9,7 +9,7 @@ order: 1
 guid: c1608b9df42fe596b76dfa82b4c1280626471336
 ---
 
-<strong>72967 Issue with the Store Coupon linked to the Tender Type Offer</strong>
+<div><strong>72967 Issue with the Store Coupon linked to the Tender Type Offer</strong>
 <ul><li>Hotfix for coupon Tender offer. Coupon linked to Tender Offer was rendered unvalid on Total before tender type was selected.</li></ul>
 <strong>72858 Disabling CompareItemPostingBuffer in Statement-Post codeunit, in PostItem procedure</strong>
 <ul><li>Event <b>OnBeforeCompressItemPostingBuffer</b> was added in codeunit Statement-Post.</li></ul>
@@ -51,4 +51,4 @@ guid: c1608b9df42fe596b76dfa82b4c1280626471336
 <strong>69852 Receipt return process in POS terminal Multi select</strong>
 <ul><li>Details not available.</li></ul>
 <strong>64773 Hospitality type - Combine split line action</strong>
-<ul><li>There was an issue with price when <b>Combine split</b> line action is set to combine on confirmation, or always combine. This was fixed.</li></ul>
+<ul><li>There was an issue with price when <b>Combine split</b> line action is set to combine on confirmation, or always combine. This was fixed.</li></ul></div>

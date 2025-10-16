@@ -9,7 +9,7 @@ order: 15
 guid: 8a448f3c3e6d928da87aec1d9e94f979a90c466b
 ---
 
-<strong>70369 Request user to enter search criteria on Member Contact panel</strong>
+<div><strong>70369 Request user to enter search criteria on Member Contact panel</strong>
 <ul><li>Details not available.</li></ul>
 <strong>70353 Mix Match filtering #557</strong>
 <ul><li>New event OnAfterFilterPosTransLine2 added in <b>POS Price Utility</b> codeunit.</li></ul>
@@ -26,4 +26,4 @@ guid: 8a448f3c3e6d928da87aec1d9e94f979a90c466b
 <strong>69511 Proposed PR: Add Integration Event to ChangeInternalStatusEvents #544</strong>
 <ul><li>Before and after event status change published events were added. </li></ul>
 <strong>65635 Unexpected behavior with REORDQTY POS Command</strong>
-<ul><li>REORDERQTY and REORDERMENUTYPE commands were refactored to fix problems with quantity, line numbers and transaction entries of linked lines.</li></ul>
+<ul><li>REORDERQTY and REORDERMENUTYPE commands were refactored to fix problems with quantity, line numbers and transaction entries of linked lines.</li></ul></div>

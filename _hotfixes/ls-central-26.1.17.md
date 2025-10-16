@@ -9,7 +9,7 @@ order: 17
 guid: dcbb88335fb35e7c5dbc20ee3819fe2fc5939da4
 ---
 
-<strong>70158 Upgrade failed from LS 25.3 to 26.1</strong>
+<div><strong>70158 Upgrade failed from LS 25.3 to 26.1</strong>
 <ul><li>When upgrading WKS tables: Check, <b>put in on new tables</b> being empty - upgrade only done if they are. </li></ul>
 <strong>70067 Referenced refund payments - format the amount</strong>
 <ul><li>When displaying referenced refund payment list, in a region where the decimal point is a comma, the list displaying the cards payments for refund was not being formatted correctly. This was fixed. When voiding a card payment within the same day, the POS does not try to retrieve token storage information for the voided payment.</li></ul>
@@ -20,4 +20,4 @@ guid: dcbb88335fb35e7c5dbc20ee3819fe2fc5939da4
 <strong>69992 Focus does not go to POS after completing a purchase in a SaaS environment</strong>
 <ul><li>Details not available.</li></ul>
 <strong>69963 LSTS-39665: Delete price check records #554</strong>
-<ul><li>New event <b>OnBeforeInsertNewTrans</b> added to <b>LSC Price Check Card</b> page.</li></ul>
+<ul><li>New event <b>OnBeforeInsertNewTrans</b> added to <b>LSC Price Check Card</b> page.</li></ul></div>

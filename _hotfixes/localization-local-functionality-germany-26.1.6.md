@@ -9,7 +9,7 @@ order: 71
 guid: 2197c321503fbecefd17b807e3a83135da616322
 ---
 
-<strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong>
+<div><strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong>
 <ul><li>Improved Cash Point Closing refresh processes.</li>
 <li>Fixed Business date source.</li></ul>
 <strong>70647 CashPointClosing - add non required objects</strong>
@@ -35,4 +35,4 @@ guid: 2197c321503fbecefd17b807e3a83135da616322
 <strong>70831 LSC DE - Error in Fiskaly Integration prevents statements from being posted</strong>
 <ul><li>Details not available.</li></ul>
 <strong>71488 LSC DE Localisation bring PopUp in POS</strong>
-<ul><li>Details not available.</li></ul>
+<ul><li>Details not available.</li></ul></div>

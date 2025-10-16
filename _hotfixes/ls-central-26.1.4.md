@@ -9,7 +9,7 @@ order: 30
 guid: 4c09465414458cd5fe5a1f140c478f5ace807704
 ---
 
-<strong>68822 No change in service charge on total press when sales type is changes from dine in to takeaway</strong>
+<div><strong>68822 No change in service charge on total press when sales type is changes from dine in to takeaway</strong>
 <ul><li>If a retail charge is inserted on <b>TotalPressed</b> based on a sales type, and then lines with that sales type, change sales type, or are voided, when <b>TotalPressed</b> is pressed again, the retail charge line becomes voided.</li></ul>
 <strong>68675 Error in codeunit LSCShopifySchOrder "COpayment already exist with blank DocumentID, Store = web and Line No. 10000</strong>
 <ul><li>Details not available.</li></ul>
@@ -56,4 +56,4 @@ guid: 4c09465414458cd5fe5a1f140c478f5ace807704
 <strong>67527 Transaction goes into Payment mode without Item Lines</strong>
 <ul><li>Pressing Total is no longer  allowed, unless having at least one POS Trans. Line.</li></ul>
 <strong>64466 Reprice on refund when member added</strong>
-<ul><li>Reprice on refund was skipped. This was fixed.</li></ul>
+<ul><li>Reprice on refund was skipped. This was fixed.</li></ul></div>

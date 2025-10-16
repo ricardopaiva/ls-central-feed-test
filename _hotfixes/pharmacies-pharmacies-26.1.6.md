@@ -9,5 +9,5 @@ order: 95
 guid: 85a6614b04d78c3da752193b54ade47f80872c5e
 ---
 
-<strong>71694 Replace NoSeriesManagement with new BC Foundation No.Series app</strong>
-<ul><li>Details not available.</li></ul>
+<div><strong>71694 Replace NoSeriesManagement with new BC Foundation No.Series app</strong>
+<ul><li>Details not available.</li></ul></div>

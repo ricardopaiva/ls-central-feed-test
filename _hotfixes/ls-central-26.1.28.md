@@ -9,7 +9,7 @@ order: 6
 guid: dd827f313eb8c234b06bc11bd4156f8349427145
 ---
 
-<strong>71997 Added VAR</strong>
+<div><strong>71997 Added VAR</strong>
 <ul><li>Var was added to parameter in event <b>OnInit_OnBeforeTransDiscLoad</b> in LSC POS Transaction Events.</li></ul>
 <strong>71846 Skip filtering of the record on find record - Sales Return Order Lines</strong>
 <ul><li><b>Event OnAfterSetFilter</b> was added in page 10001344 <b>LSC Retail SRO Subform.</b></li></ul>
@@ -44,4 +44,4 @@ guid: dd827f313eb8c234b06bc11bd4156f8349427145
 <strong>62169 Customer Order Header page 10012030 "LSC CO Details" total amount doesnt include taxes</strong>
 <ul><li>
 <p>New events, <b>OnAfterCompressedCOLinesTotalIncreased</b> and <b>OnAfterCOLinesTotalIncreased</b> were added in LSC CO Utility Codeunit.</p>
-</li></ul>
+</li></ul></div>

@@ -215,7 +215,7 @@ permalink: /feed/{filename}.xml
   <item>
     <title>{{{{ fix.title }}}}</title>
     <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
-    {{% if fix.title == "LS Central hotfixes - 26.1.33, Release date October 14, 2025 - Hotfixes" %}}
+    {{% if fix.title == "LS Central hotfixes - 26.1.33, Release date October 14, 2025 - Hotfixes" or fix.title == "LS Central hotfixes - 26.1.28, Release date September 23, 2025 - Hotfixes" %}}
       <pubDate>{{{{ "now" | date_to_rfc822 }}}}</pubDate>
     {{% else %}}
       <pubDate>{{{{ fix.date | date_to_rfc822 }}}}</pubDate>

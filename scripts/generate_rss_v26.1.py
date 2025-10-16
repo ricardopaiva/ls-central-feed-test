@@ -205,7 +205,7 @@ layout: none
 permalink: /feed/{filename}.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
   <title>Hotfixes - {name}</title>
   <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>

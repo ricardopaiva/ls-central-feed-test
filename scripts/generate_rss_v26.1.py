@@ -151,7 +151,7 @@ def generate_hotfixes(content):
                 "date": pub_date,
                 "guid": guid,
                 # "content": content
-                "content": "**72254 Logon with barcode** - Item 1\r- Item 2\r- Item 3\r- Details not available."
+                "content": "**72254 Logon with barcode**\r- Item 1\r- Item 2\r- Item 3\r- Details not available."
             })
     return hotfixes
 
@@ -218,7 +218,7 @@ permalink: /feed/{filename}.xml
     <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
     <pubDate>{{{{ "now" | date_to_rfc822 }}}}</pubDate>
     <guid>{{{{ fix.guid }}}}</guid>
-    <description><![CDATA[{{{{ fix.content | markdownify }}}}]]></description>
+    <description><![CDATA[{{{{ fix.content }}}}]]></description>
   </item>
   {{% endfor %}}
 </channel>

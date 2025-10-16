@@ -9,4 +9,6 @@ order: 74
 guid: 6aa62d72cdfdbde60cc946512efde0185cfa8ed6
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69704 CashPointClosings do not work in Germany's Fiskaly implementation</strong>
+<ul><li>Improved Cash Point Closing refresh processes.</li>
+<li>Fixed Business date source.</li></ul>

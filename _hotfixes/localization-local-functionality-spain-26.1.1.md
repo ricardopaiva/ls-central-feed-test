@@ -9,4 +9,5 @@ order: 86
 guid: 2665c79da6295bb233bda16cd02967c6b1968c05
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69738 LSC ES - Release Fiskaly Connector</strong>
+<ul><li>Details not available.</li></ul>

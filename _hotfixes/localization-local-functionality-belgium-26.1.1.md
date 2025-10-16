@@ -9,4 +9,5 @@ order: 85
 guid: e66d556e039fd030e3971d4a410980e10dc0395e
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>70020 Statement-Post together with LSC BE no longer assigns GLE fields "Journal Templ. Name" and "Journal Batch Name"</strong>
+<ul><li>Details not available.</li></ul>

@@ -9,4 +9,5 @@ order: 77
 guid: 3e23e1f78718d5b10ee365efa4ac7778cd00ab4b
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69814 GST Calculation Issue - Voided Item if item is same</strong>
+<ul><li>Details not available.</li></ul>

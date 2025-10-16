@@ -9,4 +9,5 @@ order: 93
 guid: 82f0b628053316ac835c88d2e4905ab51755089f
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69672 Customer Orders are not posted at the end of transaction</strong>
+<ul><li>Customer orders not containing Pharmacy functionality are posted at end of transaction if other conditions are met.</li></ul>

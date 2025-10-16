@@ -9,4 +9,5 @@ order: 44
 guid: 99ccd128b86a4570de24eb1099a924dbde248f74
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69222 Some cleanup for LSC-69172</strong>
+<ul><li>Details not available.</li></ul>

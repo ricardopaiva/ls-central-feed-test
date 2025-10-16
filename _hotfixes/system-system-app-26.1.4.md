@@ -9,4 +9,5 @@ order: 109
 guid: 77b293056acc94ff72b6415539b395d4cb152ea4
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>68652 Number Pad disappears on manual tips</strong>
+<ul><li>Details not available.</li></ul>

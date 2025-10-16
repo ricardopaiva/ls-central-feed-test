@@ -9,4 +9,5 @@ order: 106
 guid: 27e7c7fa5e320604ce5bfa4875c5ee2f351be5e4
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>67901 Pharmacy - Show remaining quantity in E-Prescription list</strong>
+<ul><li>New column showing remaining quantity was added to E-Prescription list.</li></ul>

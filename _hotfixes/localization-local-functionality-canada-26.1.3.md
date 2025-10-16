@@ -9,4 +9,5 @@ order: 76
 guid: 140288a5c585931d806d5778a221fe7b2646060c
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>64796 LSC French Translation missing in LS Central</strong>
+<ul><li>Details not available.</li></ul>

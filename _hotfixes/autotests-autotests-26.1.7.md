@@ -9,4 +9,5 @@ order: 42
 guid: f46d1b4d37bd05833f6d45ae45eab480db5a1e6f
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>68768 Error when opening sales from store list in LS Central 26.1</strong>
+<ul><li>There was an error when opening sales from store list. This was fixed.</li></ul>

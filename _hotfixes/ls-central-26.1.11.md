@@ -9,4 +9,13 @@ order: 23
 guid: abeb110f6eb955ebf314db97ffe85953a96838e8
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69534 Add event for calculating amount including VAT when creating CO and SO #547</strong>
+<ul><li>New event, <b>OnBeforeSumAmountInclVATByCustomerOrderID</b> was added to <b>Sales Header</b> table extension.</li></ul>
+<strong>69514 Return (Refund) Qty in correct - HF 26.1</strong>
+<ul><li>Details not available.</li></ul>
+<strong>69431 Comment on Customer Order not getting collected so the customer order stays in "to collect"</strong>
+<ul><li>Adjusted previous development to not cause issues with non Item lines on a customer order.</li></ul>
+<strong>69375 We need some changes for our new extension regarding Loyalty Points usage</strong>
+<ul><li>Multiple events were added to <b>LSC POS Price Utility</b> codeunit.</li></ul>
+<strong>69369 Issue with selling serial number required product to customers</strong>
+<ul><li>Details not available.</li></ul>

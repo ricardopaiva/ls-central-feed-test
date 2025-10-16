@@ -9,4 +9,5 @@ order: 108
 guid: 16841eab83a4f9950ad84fda35af8ba2973dc6d2
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69992 Focus does not go to POS after completing a purchase in a SaaS environment</strong>
+<ul><li>Details not available.</li></ul>

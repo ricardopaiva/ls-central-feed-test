@@ -9,4 +9,7 @@ order: 41
 guid: 1be80f25286b12568b33efec686e16b364e07cf7
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69853 SumAmountInclVATByCustomerOrderID calculates in LCY causing error creating Customer Orders</strong>
+<ul><li>Customer Orders and Sales Orders are now in the same currency when creating SO and CO values.</li></ul>
+<strong>68667 Incorrect VAT calculation on Sales Order created by Customer Order</strong>
+<ul><li>Fixed VAT calculation on Sales Order, created by Customer Order.</li></ul>

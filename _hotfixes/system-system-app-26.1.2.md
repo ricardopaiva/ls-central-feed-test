@@ -9,4 +9,5 @@ order: 111
 guid: b82149c7fb158155912f89bcb4a686ce255ac1b4
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>67601 Printer shows infinite "Opening drawer" when paper empty</strong>
+<ul><li>Details not available.</li></ul>

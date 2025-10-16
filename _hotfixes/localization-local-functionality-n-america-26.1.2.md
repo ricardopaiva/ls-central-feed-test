@@ -9,4 +9,5 @@ order: 80
 guid: 0f9dbffcd0966144b663a6cc16bfecdae0dc7ad4
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>69507 Double Tax on Receipt</strong>
+<ul><li>Printed one-time tax only in the prebill and split bill.</li></ul>

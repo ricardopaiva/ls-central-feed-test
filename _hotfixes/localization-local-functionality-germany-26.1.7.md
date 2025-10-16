@@ -9,4 +9,5 @@ order: 69
 guid: b559e10e2536fbde201a7b3030e72232cc7f1f36
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>71911 localization Germany Fiskaly</strong>
+<ul><li>Details not available.</li></ul>

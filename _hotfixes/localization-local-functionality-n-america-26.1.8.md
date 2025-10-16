@@ -9,4 +9,5 @@ order: 68
 guid: 7a74ada5f53097f82348c862018642edc37ebb85
 ---
 
-**72254 Logon with barcode**- Item 1- Item 2- Item 3- Details not available.
+<strong>72639 LSC - NA ECOM CO - Income/Expense</strong>
+<ul><li>Tax calculation for income and expense accounts, as well as shipment charges, is managed when using eCommerce.</li></ul>

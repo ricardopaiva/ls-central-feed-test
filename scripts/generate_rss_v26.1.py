@@ -217,7 +217,7 @@ permalink: /feed/{filename}.xml
     <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
     <pubDate>{{{{ fix.date | date_to_rfc822 }}}}</pubDate>
     <guid>{{{{ fix.guid }}}}</guid>
-    <description><![CDATA[{{{{ fix.content | strip_html }}}}]]></description>
+    <description><![CDATA[<div>{{{{ fix.content | markdownify }}}}</div>]]></description>
   </item>
   {{% endfor %}}
 </channel>

@@ -59,13 +59,27 @@ jobs:
           python scripts/generate_rss_v26.1.py
         working-directory: .  # adjust path as needed
 
-      - name: Commit new hotfix files if any, to test branch
+      - name: Commit updates to feeds files, if there are changes
         run: |
           echo "Current branch: $(git branch --show-current)"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # adding changes in the feeds folder
           git add feeds/
+          # forcing _hotfixes to be added, as it's in .gitignore
+          # optionally add other generated files
+          if ! git diff --cached --quiet; then
+            git commit -m "Updating feeds files"
+            git push
+          else
+            echo "No changes, skipping commit"
+          fi
+
+      - name: Commit new hotfix files if any, to test branch
+        run: |
+          echo "Current branch: $(git branch --show-current)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           # forcing _hotfixes to be added, as it's in .gitignore
           git add -f _hotfixes/
           # optionally add other generated files

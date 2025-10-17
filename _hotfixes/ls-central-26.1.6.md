@@ -12,8 +12,7 @@ guid: 1ef372822bfcc26fa85f83d76d6d0e8df8503c99
 <strong>69222 Some cleanup for LSC-69172</strong>
 <ul><li>Details not available.</li></ul>
 <strong>69161 AL: Fix Variant using Desc as name</strong>
-<ul><li>Fixed Error: OPTION_DOES_NOT_EXIST, when <b>Use Variant Description</b> option is checked under Shopify Administration page.</li>
-<li>
+<ul><li>Fixed Error: OPTION_DOES_NOT_EXIST, when <b>Use Variant Description</b> option is checked under Shopify Administration page.</li><li>
 <p>Fixed fulfillment handling from Shopify that caused invalid order ID error and wrong qtr of items were shipped.</p>
 </li></ul>
 <strong>69032 Requested event to clear uncompressed discount voucher lines #535</strong>

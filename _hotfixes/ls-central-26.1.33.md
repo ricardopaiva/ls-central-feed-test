@@ -46,8 +46,7 @@ guid: c1608b9df42fe596b76dfa82b4c1280626471336
 <strong>70950 Returning items by scanning receipt on POS</strong>
 <ul><li>On selecting an Item to return, that has linked items, these linked items should also be selected automatically.</li></ul>
 <strong>70165 Standard Activity Front Desk Extremely Slow</strong>
-<ul><li>To optimize performance and concentrate on relevant transactions the #ACT-FRONTDESK POS Command uses Arrival Filter (Today + X) and Departure Filter (Today - X) Filters from Activity Setup Point of Sale Section for Transaction Filtering and Counting.</li>
-<li>In the <b>Activity Front Desk</b> System filtering transactions based on Arrival and Departure dates is essential for managing reservations and activities efficiently. The filters are designed to provide a clear view of current and relevant transactions, ensuring that the system focuses on actionable data.</li></ul>
+<ul><li>To optimize performance and concentrate on relevant transactions the #ACT-FRONTDESK POS Command uses Arrival Filter (Today + X) and Departure Filter (Today - X) Filters from Activity Setup Point of Sale Section for Transaction Filtering and Counting.</li><li>In the <b>Activity Front Desk</b> System filtering transactions based on Arrival and Departure dates is essential for managing reservations and activities efficiently. The filters are designed to provide a clear view of current and relevant transactions, ensuring that the system focuses on actionable data.</li></ul>
 <strong>69852 Receipt return process in POS terminal Multi select</strong>
 <ul><li>Details not available.</li></ul>
 <strong>64773 Hospitality type - Combine split line action</strong>

@@ -137,7 +137,7 @@ def generate_hotfixes(content):
                     item_text = f"<strong>{item_title}</strong>"
                     content_items.append(f"{item_text}")
                     items_array = [f"{detail}" for detail in details]
-                    content_items.append(f"<ul>" + "\n".join(items_array) + "</ul>")
+                    content_items.append(f"<ul>" + "".join(items_array) + "</ul>")
             content = "\n".join(content_items)
 
             sort_id += 1

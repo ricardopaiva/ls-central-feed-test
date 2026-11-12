@@ -127,6 +127,7 @@ NESTED_BULLETS = ["◦", "▪"]  # depth 2: white bullet, depth 3+: small black 
 
 
 def normalize_html(html):
+    import re
     """Keep each list item's HTML on a single line (no stray whitespace)."""
     # ASCII whitespace only: \s would also strip the em-space indent used for nested items
     html = re.sub(r"[ \t\r\n]*\n[ \t\r\n]*", " ", html)

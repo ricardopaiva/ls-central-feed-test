@@ -4,7 +4,7 @@ import os
 from slugify import slugify
 import hashlib
 
-URL = "https://help.lscentral.lsretail.com/Content/Hotfixes/Hotfixes-26-1.htm"
+URL = "https://help.lscentral.lsretail.com/Content/Hotfixes/Hotfixes-29-0.htm"
 
 
 def parse_items(item_details_tags):
@@ -21,7 +21,7 @@ def parse_items(item_details_tags):
             items.append(current_item)
 
         elif item_details_tag.name == 'ul':
-            details = item_details_tag.select("li")
+            details = item_details_tag.find_all("li", recursive=False)
             for detail in details:
                 current_item_details.append(detail)
 
@@ -48,9 +48,10 @@ def scrape_release_notes(content_div):
             elif content_tag.name == 'div' and current_product:
                 for products_subtag in content_tag.find_all(['a', 'div'], recursive=True):
                     if products_subtag.name == 'a':
-                        # current_version = extract_version(products_subtag.get_text(strip=True))
-                        current_version = products_subtag.get_text(strip=True)
-                        versions[current_version] = []
+                        # Only treat as a version header if NOT nested inside a <li>
+                        if not products_subtag.find_parent('li'):
+                            current_version = products_subtag.get_text(strip=True)
+                            versions[current_version] = []
                     elif products_subtag.name == 'div' and current_product and current_version:
                         item_details_tags = products_subtag.find_all(['h4', 'ul'], recursive=False)
                         items = parse_items(item_details_tags)
@@ -122,6 +123,37 @@ def clean_text(text):
     return text
 
 
+NESTED_BULLETS = ["◦", "▪"]  # depth 2: white bullet, depth 3+: small black square
+
+
+def normalize_html(html):
+    """Keep each list item's HTML on a single line (no stray whitespace)."""
+    # ASCII whitespace only: \s would also strip the em-space indent used for nested items
+    html = re.sub(r"[ \t\r\n]*\n[ \t\r\n]*", " ", html)
+    html = re.sub(r"(<li[^>]*>)[ \t\r\n]+", r"\1", html)
+    html = re.sub(r"[ \t\r\n]+(</li>)", r"\1", html)
+    return html
+
+
+def flatten_li(li, depth=1):
+    """Flatten nested lists into sibling <li> items, marking the depth in the text.
+
+    The Teams card turns '<ul><li>' / '</li></ul>' into markdown bullets but
+    cannot handle nested lists, so nested items are emitted as flat <li> items
+    prefixed with an indent and a different bullet (depth 2: ◦, depth 3+: ▪).
+    """
+    children = []
+    for nested in li.find_all(['ul', 'ol'], recursive=False):
+        nested.extract()
+        for child in nested.find_all('li', recursive=False):
+            children.extend(flatten_li(child, depth + 1))
+    if depth > 1 and li.get_text(strip=True):
+        marker = " " * 2 * (depth - 1) + NESTED_BULLETS[min(depth, 3) - 2] + " "
+        li.insert(0, marker)
+    parent = normalize_html(str(li))
+    return ([parent] if li.get_text(strip=True) else []) + children
+
+
 def generate_hotfixes(content):
     hotfixes = []
     sort_id = 0
@@ -136,7 +168,7 @@ def generate_hotfixes(content):
                 for item_title, details in items:
                     item_text = f"<strong>{item_title}</strong>"
                     content_items.append(f"{item_text}")
-                    items_array = [f"{detail}" for detail in details]
+                    items_array = [html for detail in details for html in flatten_li(detail)]
                     content_items.append(f"<ul>" + "".join(items_array) + "</ul>")
             content = "\n".join(content_items)
 
@@ -215,11 +247,7 @@ permalink: /feed/{filename}.xml
   <item>
     <title>{{{{ fix.title }}}}</title>
     <link>{{{{ site.url }}}}{{{{ site.baseurl }}}}{{{{ fix.url }}}}</link>
-    {{% if fix.title == "LS Central hotfixes - 26.1.33, Release date October 14, 2025 - Hotfixes" or fix.title == "LS Central hotfixes - 26.1.28, Release date September 23, 2025 - Hotfixes" %}}
-      <pubDate>{{{{ "now" | date_to_rfc822 }}}}</pubDate>
-    {{% else %}}
-      <pubDate>{{{{ fix.date | date_to_rfc822 }}}}</pubDate>
-    {{% endif %}}
+    <pubDate>{{{{ fix.date | date_to_rfc822 }}}}</pubDate>
     <guid>{{{{ fix.guid }}}}</guid>
     <description><![CDATA[{{{{ fix.content | markdownify | remove: '<p>' | remove: '</p>' }}}}]]></description>
   </item>

@@ -17,7 +17,7 @@ Visit this page to browse and subscribe to product-specific or all-in-one RSS fe
 
 ## How It Works
 
-1. The Python script [`scripts/generate_rss_v26.1.py`](scripts/generate_rss_v26.1.py) fetches and parses the official LS Central Hotfixes page.
+1. The Python script [`scripts/generate_rss_latest.py`](scripts/generate_rss_latest.py) fetches and parses the official LS Central Hotfixes page.
 2. It generates Markdown files for each hotfix in the [`_hotfixes`](./_hotfixes) collection.
 3. It creates RSS feed templates in the [`feeds`](./feeds) directory.
 4. The static site is built using Jekyll, which processes the hotfix data and generates the RSS feeds.

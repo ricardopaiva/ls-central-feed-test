@@ -33,17 +33,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.301.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.4.1' # Not needed with a .ruby-version file
+          ruby-version: '3.4' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -55,41 +55,27 @@ jobs:
 
       - name: Run RSS feeds generator
         run: |
-          python scripts/generate_rss_v26.1.py
+          python scripts/generate_rss_latest.py
         working-directory: .  # adjust path as needed
 
-      - name: Commit updates to existing files, if there are changes
-        run: |
-          echo "Current branch: $(git branch --show-current)"
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # adding changes in the feeds folder
-          git add feeds/
-          # optionally add other generated files
-          if ! git diff --cached --quiet; then
-            git commit -m "Adding updated files"
-            git push
-          else
-            echo "No changes, skipping commit"
-          fi
-
-      - name: Commit new hotfix files if any, to test branch
+      - name: Commit new hotfix files if any
         run: |
           echo "Current branch: $(git branch --show-current)"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # forcing _hotfixes to be added, as it's in .gitignore
           git add -f _hotfixes/
+          # optionally add other generated files
           if ! git diff --cached --quiet; then
             git commit -m "Add new hotfixes"
             git push
           else
             echo "No changes, skipping commit"
           fi
-          
+
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
@@ -99,7 +85,7 @@ jobs:
       
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
 
   # Deployment job
   deploy:
@@ -111,4 +97,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
